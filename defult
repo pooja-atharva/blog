@@ -1,0 +1,50 @@
+<ActionDispatch::Request::Session:0x00007f15d01a35c8
+@by=#<ActionDispatch::Session::CookieStore:0x00000000050b4d70
+@app=#<ActionDispatch::ContentSecurityPolicy::Middleware:0x00000000050b4e38
+@app=#<ActionDispatch::PermissionsPolicy::Middleware:0x00000000050b4eb0
+@app=#<Rack::Head:0x00000000050b4f28
+@app=#<Rack::ConditionalGet:0x00000000050b4fa0
+@app=#<Rack::ETag:0x00000000050b5018
+@app=#<Rack::TempfileReaper:0x00000000050b5090
+@app=#<Warden::Manager:0x00000000050b52c0
+@config={
+        :default_scope=>:user,
+        :scope_defaults=>{},
+        :default_strategies=>{
+            :user=>[:rememberable, :database_authenticatable]
+            },
+        :intercept_401=>false,
+        :failure_app=>#<Devise::Delegator:0x00000000051cce88>
+    },
+@app=#<ActionDispatch::Routing::RouteSet:0x0000000004e3c228>>>,
+@cache_control="max-age=0,
+private,
+must-revalidate",
+@no_cache_control="no-cache">>>>>,
+@default_options={
+    :path=>"/",
+    :domain=>nil,
+    :expire_after=>nil,
+    :secure=>false,
+    :httponly=>true,
+    :defer=>false,
+    :renew=>false
+},
+@key="_blog_session",
+@cookie_only=true,
+@same_site=nil>,
+@req=#<ActionDispatch::Request
+GET
+"http://localhost:3000/"
+for
+::1>,
+@delegate={
+    "session_id"=>"b0a99407c2e410fe938727df95ef1301",
+    "flash"=>{"discard"=>[],
+    "flashes"=>{"notice"=>"Signed in successfully."}},
+    "warden.user.user.key"=>[[1],
+    "$2a$12$Vj1tovobnny/unQw/j1/He"],
+    "warden.user.user.session"=>{"last_request_at"=>1625649315}
+},
+@loaded=true,
+@exists=true>
